@@ -55,4 +55,4 @@ The network monitor controls all interface monitors running on the system. In a 
 •	If the interface monitor indicates that its link is down, the network monitor will instruct the interface monitor to put the link back up.
 •	On shutdown, the network monitor will intercept the SIGINT interrupt (ctrl-C, kill -2), send a shut down message to each interface monitor, close all connections, then exit.
 
-
+![Visualization of the Assignment](assignment_image.PNG)
